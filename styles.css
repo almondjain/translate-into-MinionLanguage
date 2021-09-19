@@ -1,3 +1,14 @@
+:root{
+    --primary: #F2C94C;
+    --black: #333333;
+}
+
+body {
+
+    font-family: 'Kalam',cursive;
+    /* color: var(--black); */
+}
+
 textarea{
     border: 1px solid black;
     width: 60%;
@@ -14,4 +25,20 @@ textarea{
     margin: 2rem;
     padding: 1rem;
     display: block;
+}
+
+#navigation-bar{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--primary);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
 }
