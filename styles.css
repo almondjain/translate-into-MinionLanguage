@@ -3,6 +3,10 @@
     --black: #333333;
 }
 
+/* * {
+    box-sizing: border-box;
+} */
+
 body {
 
     font-family: 'Kalam',cursive;
@@ -16,6 +20,9 @@ textarea{
     display: block;
     margin: 2rem;
     padding: 2rem;
+    font-size: large;
+    font-family: 'Kalam',cursive;
+    align-content: center;
 }
 
 #output{
@@ -25,6 +32,7 @@ textarea{
     margin: 2rem;
     padding: 1rem;
     display: block;
+    font-size: large;
 }
 
 #navigation-bar{
@@ -41,4 +49,29 @@ footer{
     padding: 1rem;
     background-color: var(--primary);
     text-align: center;
+    display:block;
+}
+
+#about-sec{
+    font-size: x-large;
+}
+
+#translate-button {
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    background-color: #f2c94c;
+    outline: 0;
+    border: 0;
+    /* transition: 0.3s; */
+    cursor: pointer;
+    font-size: large;
+    border-radius: 5px;
+    
+}
+
+#block{
+     align-content: center; 
+
+    width:900px; 
+    margin:0 auto;
 }
